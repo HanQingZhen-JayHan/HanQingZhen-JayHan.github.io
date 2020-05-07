@@ -285,12 +285,12 @@ html,h1,h2,h3,h4,h5,h6,a{
 
 .workYear span {
 	width: 7em;
-    display: block;
+    display: flexbox;
 	font-size: 18px;
     padding: 0 21px;
     white-space: nowrap;
-    float: right;
-    margin-bottom: 2px;
+    float: left;
+    margin-bottom: 1em;
     margin-right: 28px;
     font-weight: bold;
 }
