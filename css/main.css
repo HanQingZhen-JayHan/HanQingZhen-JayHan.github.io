@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+/* @import url('https://fonts.googleapis.com/css?family=Raleway'); */
 
 
 body{
@@ -7,7 +7,7 @@ body{
 	background:#f4f4f4;
 }
 html,h1,h2,h3,h4,h5,h6,a{
-	font-family: "Raleway";
+	font-family: Verdana, Geneva, Arial, sans-serif;
 }
 .navbar{
 	background:#F97300;

@@ -13,47 +13,47 @@
 </head>
 
 <body>
-	<!-- navbar -->
-
-	<nav class="navbar navbar-expand-lg fixed-top ">
-		<a class="navbar-brand" data-value="header" href="#">Home</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-
-		<div class="collapse navbar-collapse " id="navbarSupportedContent">
-			<ul class="navbar-nav mr-4">
-
-				<li class="nav-item">
-					<a class="nav-link" data-value="about" href="#">About</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link " data-value="skill" href="#">Skills</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link " data-value="exprience" href="#">Work Experiences</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link " data-value="project" href="#">Projects</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link " data-value="contact" href="#">Contact</a>
-				</li>
-			</ul>
-
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav">
+		<div class="container">
+			<a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+				aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#about">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#skill">Skill</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#exprience">Work Exprience</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#project">Project</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</nav>
+
 	<!-- header -->
-	<header id = "header" class="header ">
+	<header id="header" class="header ">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="description ">
 				<h1>
 					Hi, Welcome to my website. I am Jay Han.
 					<p>
-            I have 7+ years work experiences, including 5 years Android development and 1+ year iOS development.
-          </p>
+						I have 7+ years work experiences, including 5 years Android development and 1+ year iOS
+						development.
+					</p>
 					<a class="btn btn-outline-secondary btn-lg" data-value="about" href="#" role="button">See more</a>
 				</h1>
 			</div>
@@ -410,7 +410,7 @@
 								platform for the global student
 								community that connects high students and university students. </span>
 						</p>
-	
+
 						<ul>
 							<li> Independently create a new app in the first 3 months using both <em>Java</em> and
 								<em>Kotlin</em> under a
@@ -538,15 +538,22 @@
 	<div class="contact" id="contact">
 		<div class="container">
 			<h1 class="text-center">Contact</h1>
-			<p class="text-center"><img src="images/contact/svg_email.svg"/> hanqingzhencanada@gmail.com</p>
-			<p class="text-center"><img src="images/contact/svg_linkedin.svg"/> hanqingzhencanada@gmail.com</p>
+			<p class="text-center"><img src="images/contact/svg_email.svg" /> hanqingzhencanada@gmail.com</p>
+			<p class="text-center"><img src="images/contact/svg_linkedin.svg" /> hanqingzhencanada@gmail.com</p>
 		</div>
 	</div>
 	<!-- add Javasscript file from js file -->
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<!-- Bootstrap core JavaScript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+
+	<!-- Plugin JavaScript -->
+	<script src="js/jquery.easing.min.js"></script>
+
 	<script type="text/javascript" src='js/main.js'></script>
 
+	<!-- Custom JavaScript for this theme -->
+	<script src="js/scrolling-nav.js"></script>
 </body>
 
 </html>
