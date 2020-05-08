@@ -300,6 +300,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 .project .card img{
 	width: 100%;
 	height: 12em;
+	object-fit: cover;
 }
 
 .project .card-title{
@@ -308,6 +309,17 @@ html,h1,h2,h3,h4,h5,h6,a{
 }
 .project .card-body{
 	padding: 1em;
+}
+
+.project a:link{
+	color: #897f8a;
+	text-decoration: none;
+}
+.project a:visited{
+	color: #10828C;
+}
+.project a:hover{
+	color: #10828C;
 }
 
 
@@ -330,6 +342,17 @@ html,h1,h2,h3,h4,h5,h6,a{
 
 .contact img{
 	padding-right: 0.5em;
+}
+
+.contact a:link{
+	color: #897f8a;
+	text-decoration: underline;
+}
+.contact a:visited{
+	color: #10828C;
+}
+.contact a:hover{
+	color: #10828C;
 }
 
 /*----------------------------------------------------
