@@ -267,6 +267,10 @@ html,h1,h2,h3,h4,h5,h6,a{
 	color: #10828C;
 }
 
+.exCon span a:link{
+	text-decoration: none;
+}
+
 .exCon p em{
 	font-weight: bold;
 }
