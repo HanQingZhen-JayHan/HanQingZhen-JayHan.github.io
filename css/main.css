@@ -109,7 +109,16 @@ html,h1,h2,h3,h4,h5,h6,a{
 	line-height:2;
 	color:#888;
 }
-
+.about a:link{
+	color: #897f8a;
+	text-decoration: none;
+}
+.about a:visited{
+	color: #897f8a;
+}
+.about a:hover{
+	color: #10828C;
+}
 
 /*----------------------------------------------------
  4. Skill Style
