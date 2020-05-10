@@ -145,6 +145,14 @@ html,h1,h2,h3,h4,h5,h6,a{
 .skill .card{
 	margin-top: 1em;
 }
+.skill .card .card-body{
+	padding-left: 0em;
+	padding-right: 0em;
+}
+
+.skill .card .card-text span{
+	color: #897f8a;
+}
 
 /*----------------------------------------------------
  5. Work Experience Style
