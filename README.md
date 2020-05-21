@@ -6,11 +6,15 @@
 
 This project is based on Bootstrap 4 and Github Page. The code is clean and easy to understand.
 
-Only need couple of hours, you can build your own web resume from scratch.
+Only need a couple of hours, you can build your own web resume from scratch.
 
-![](./web.gif)
+**Website**
+
+![Web](./web.gif)
 
 
+
+**Mobile **
 
 ![](./mobile.gif)
 
