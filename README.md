@@ -64,4 +64,5 @@ Only need a couple of hours, you can build your own web resume from scratch.
 
 [iconify](https://iconify.design/icon-sets/)
 
-[Head First HTML and CSS.pdf]([https://github.com/SabraAS/ProgrammingBooks/blob/master/Head%20First%20HTML%20and%20CSS%20-%202nd%20Ed.pdf](https://github.com/SabraAS/ProgrammingBooks/blob/master/Head First HTML and CSS - 2nd Ed.pdf))
+[Head First HTML and CSS.pdf](https://github.com/SabraAS/ProgrammingBooks/blob/master/Head%20First%20HTML%20and%20CSS%20-%202nd%20Ed.pdf)
+
